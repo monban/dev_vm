@@ -1,7 +1,7 @@
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get dist-upgrade -y
-sudo apt-get -y install vim tmux autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev software-properties-common python-software-properties
+sudo apt-get -y install vim tmux autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev software-properties-common python-software-properties libsqlite3-dev
 sudo apt-add-repository -y ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install -y git
